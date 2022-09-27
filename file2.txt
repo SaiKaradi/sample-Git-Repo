@@ -1,4 +1,4 @@
 adding two commands 
  
 gitlab
-bitbucket
+bitbucket.
