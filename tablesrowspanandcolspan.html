@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <style>
+        table,th,td {
+            border: 2px solid black;border-radius: inherit;border-bottom-left-radius: inherit;
+            border-collapse: collapse;
+            width:max-content;
+            height: 50px; 
+        }
+        table {
+                border-collapse: collapse;
+                width: 100%;
+           
+        }
+
+        tr:nth-child(even){
+            background-color: cornflowerblue;
+            
+        }
+        th:nth-child(even){
+            background-color: aquamarine;
+        }
+        td:nth-child(even){
+            background-color: dimgray;
+        }
+        
+    </style>
+    
+</head> 
+
+<body>
+    <table>
+    <h1> spans colspan and rowspan</h1>
+    <p>To make mark list using html table  attributes rowspan and colspan</p>
+    <thead>
+        <tr>
+            <th>s.no</th>
+            <th colspan="2">Name</th>
+            <th colspan="5">subjects marks</th>
+            <th>total</th>
+            <th>percentage%</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th></th>
+            <th>firstname</th>
+            <th>lastname</th>
+            <th>telugu</th>
+            <th>english</th>
+            <th>maths</th>
+            <th>science</th>
+            <th>social</th>
+            <th>500</th>
+            <th>semi-1</th>
+
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>saikumar</td>
+            <td>k.</td>
+            <td>35</td>
+            <td>45</td>
+            <td>66</td>
+            <td>76</td>
+            <td>88</td>
+            <td>310</td>
+            <td>70%</td>
+
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>srikath</td>
+            <td>m.</td>
+            <td>45</td>
+            <td>67</td>
+            <td>77</td>
+            <td>88</td>
+            <td>57</td>
+            <td>334</td>
+            <td>80%</td>
+        </tr> 
+        <tr>
+            <td>3.</td>
+            <td>srinu</td>
+            <td>t.</td>
+            <td>56</td>
+            <td>78</td>
+            <td>88</td>
+            <td>75</td>
+            <td>88</td>
+            <td>385</td>
+            <td>50%</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td  rowspan="3" colspan="9"><h1>NOTE</h1></td>
+                <td>Improve your marks</td>
+            </tr>
+            <tr>
+                <td>Another wise your fail</td>
+            </tr>
+
+        </tfoot>   
+            
+           
+            
+
+            
+            
+            
+
+            
+
+                        
+        </tr>
+    
+    </table>
+</body>    
+</html>
+
+</head>
