@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>exploredate&time</title>
+    <style>
+    h1{
+        text-align: center;
+        background-color:cornflowerblue;
+        margin-top: 10px;
+    }
+    </style>
+</head>
+<body>
+    <h1>date&time  regular expressions related inputs</h1>
+    <ol>
+        <li>user name</li>
+    
+    <form class="form">
+        <label for="username"></label>
+        <input type="text" id="username" pattern="[A-Za-z\d\.]{1,9}"
+            title="username must be b/w 1 and 9 characters in length and containonly letters, numbers andperiods(.)"
+            required>
+            <br>
+            <br>
+            <li>website</li>
+
+            <form class="form">
+                <label for="website"></label>
+                <input type="text" id="website" pattern="https?://.+"
+                    title="must begin with http:// or https://"
+                    required>
+            <br>
+            <li>mobile number</li>
+            <form class="form">
+                <label for="mobile number"></label>
+                <input type="text" id="mobile number" pattern="[8 9][0-9]{9}"
+                    title="required number between 0 and 9 numbers"
+                    required>
+            <br>
+            <br>
+            <li>date format</li>
+            <form class="form">
+                <label for="date formate"></label>
+                <input type="text" id="date format" pattern="^(0[1-9]|[12][0-9]|3[01])[- /.] "
+                title="required for dd-mm-yyyy format"
+                required>
+                <br>
+            <li>timeformat</li>
+            <form class="form">
+                    <label for="time formate"></label>
+                    <input type="text" id="time format" regex = "(1[012]|[1-9]):[0-5][0-9](\\s)?(?i)(am|pm)";
+
+                    title="required for 12-hour format"
+                required>    
+
+
+            <h1>download attribute</h1>
+            <ul class="summary">
+                <li>GitHub is an Internet hosting service for software development and version control using Git.</li>
+                <li> It provides the distributed version control of Git plus access control,</li>
+                <li>bug tracking, software feature requests, task management, continuous integration, and wikis for every project. </li>
+                </ul>
+                <br>
+                <br>
+                <a href="file:///C:/Users/karad/Downloads/Git%20Notes.pdf" download="github.txt">download INFORMATION</a>  
+
+ <button type="submit">submit</button>
+</ol>
+           
+    </form>
+    
+
+</body>    
+</html>
