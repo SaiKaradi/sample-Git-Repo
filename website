@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>new web page</title>
+  <style>
+   p {
+    color:black;
+    text-indent: 40px;
+    text-transform: lower case;
+   } 
+  </style>  
+</head>
+<body bgcolor="lightblue">
+<h1>Background color using attribute bgcolor</h1>
+<h1>style paragraphs with css</h1>
+<p><h1>Guntur </h1><h4>is a city and the administrative headquarters of Guntur district in the Indian state of Andhra Pradesh.<span style="color:red;font-weight:bold"> Guntur City is spread across 168.49 km square </span>and is the third-largest City in the state. It is situated<span style="color:magenta;font-weight:900"> 64 kilometres to the west of the Bay of Bengal</span> on the Eastern Coastal Plains.</h4></p>
+<h3>Button Tag</h3>
+<button>
+    <a href="https://en.wikipedia.org/wiki/Guntur"> click </a>
+    
+</button>
+
+<hr>
+<p><h1>Hyderabad </h1><h4>is the capital of southern India's Telangana state. A major center for the technology industry, it's home to many upscale restaurants and shops. Its historic sites include Golconda Fort, a former diamond-trading center that was once the Qutb Shahi dynastic capital.<p><em>The Charminar, a 16th-century mosque whose 4 arches support towering minarets, is an old city</p></em>  <p><i>landmark near the long-standing Laad Bazaar.</p></i></h4></p>
+<h3>button tag</h3>
+<button>
+    <a href="https://en.wikipedia.org/wiki/Hyderabad">clickmore</a>
+    </button>
+<button>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487295.02532044525!2d78.12785129924684!3d17.41215307568293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1664446343217!5m2!1sen!2sin" width="50" height="70">click.map</iframe>
+</button>
+<hr>
+<P><h1>Kadapa (colonial spelled Cuddapah)</h1><h4> is a city in the southern part of Andhra Pradesh, India.It is located in the Rayalaseema region, and is the district headquarters of YSR Kadapa district. As of the 2022 Census of India, the city had a population of 466,000,a 2.42% increase from 2021.It is located 8 kilometres (5.0 mi) south of the Penna River. The city is surrounded on three sides by the Nallamala and Palkonda Hills lying on the tectonic landscape between the Eastern and Western ghats. Black and Red ferrous soils occupy the region. The city is nicknamed "Gadapa" ('threshold') since it is the gateway from the west to the hills of Tirumala.</h4></P>
+<pre>
+    <ol>
+        <li>Air port</li>
+        <li>Gandikota</li>
+        <li>Jammalamadugu</li>
+    </ol>
+</pre>
+<h3>image tag</h3>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbfxW77d0e2kTbHK-26rTcLFtBEJVM47XaBg&usqp=CAU" style="height:min-content;width: 200px;">
+
+</body>
+</html>
